@@ -26,6 +26,11 @@
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"espaceFumeur"
+                }, 
+                {
+                 "name":"jitsiTrigger",
+                 "type":"string",
+                 "value":"onaction"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -44,6 +49,11 @@
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"espaceVelo"
+                }, 
+                {
+                 "name":"jitsiTrigger",
+                 "type":"string",
+                 "value":"onaction"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -224,6 +234,11 @@
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"alanTuring"
+                }, 
+                {
+                 "name":"jitsiTrigger",
+                 "type":"string",
+                 "value":"onaction"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -242,6 +257,11 @@
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"blaisePascal"
+                }, 
+                {
+                 "name":"jitsiTrigger",
+                 "type":"string",
+                 "value":"onaction"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -260,6 +280,11 @@
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"graceHopper"
+                }, 
+                {
+                 "name":"jitsiTrigger",
+                 "type":"string",
+                 "value":"onaction"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -278,6 +303,11 @@
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"adaLovelace"
+                }, 
+                {
+                 "name":"jitsiTrigger",
+                 "type":"string",
+                 "value":"onaction"
                 }],
          "type":"tilelayer",
          "visible":true,
