@@ -135,6 +135,12 @@
          "id":45,
          "name":"ascGallionSpawn",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"startLayer",
+                 "type":"bool",
+                 "value":true
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":79,
@@ -147,6 +153,17 @@
          "id":46,
          "name":"ascGallion",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"openWebsite",
+                 "type":"string",
+                 "value":"https:\/\/thierrylee.github.io\/workadventure-map\/elevatorGallion.html"
+                }, 
+                {
+                 "name":"openWebsiteTrigger",
+                 "type":"string",
+                 "value":"onaction"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":79,
