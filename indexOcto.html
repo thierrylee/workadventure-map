@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <script>
+            window.onload = function() {
+                var path = window.location.pathname;
+                if (path.endsWith('index.html')) {
+                    path = path.substr(path, path.length - 'index.html'.length);
+                }
+                var url = 'https://play.workadventure.octo.tools/_/global/'+window.location.host+path;
+				
+				// Setup RDC rooms
+				document.getElementById('au34_rdc').href = url + 'au34-rdc.json';
+				var roomsRdc = document.getElementsByClassName('roomRdc');
+				for (i=0; i < roomsRdc.length; i++){
+					roomsRdc[i].href = url + 'au34-rdc.json#' + roomsRdc[i].id;
+				}
+				
+				// Setup 5th rooms
+				document.getElementById('au34_5eme').href = url + 'au34-5eme.json';
+				var rooms5eme = document.getElementsByClassName('room5eme');
+				for (i=0; i < rooms5eme.length; i++){
+					rooms5eme[i].href = url + 'au34-5eme.json#' + rooms5eme[i].id;
+				}
+            };
+        </script>
+    </head>
+    <body>
+        Maps for <a href="https://workadventu.re">Workadventu.re</a>.
+        <br/>
+		<ul>
+			<li><a id="au34_rdc" href="">Au 34 - RDC</a></li>
+			<li><a class="roomRdc" id="alanTuringSpawn" href="">Au 34 - RDC - Alan Turing</a></li>
+			<li><a class="roomRdc" id="adaLovelaceSpawn" href="">Au 34 - RDC - Ada Lovelace</a></li>
+			<li><a class="roomRdc" id="blaisePascalSpawn" href="">Au 34 - RDC - Blaise Pascal</a></li>
+			<li><a class="roomRdc" id="graceHopperSpawn" href="">Au 34 - RDC - Grace Hopper</a></li>
+			<li><a class="roomRdc" id="cafetRdcSpawn" href="">Au 34 - RDC - Cafetaria</a></li>
+			<li><a id="au34_5eme" href="">Au 34 - 5ème</a></li>
+			<li><a class="room5eme" id="georgesBoolSpawn" href="">Au 34 - 5ème - Georges Bool</a></li>
+			<li><a class="room5eme" id="bureauFHISpawn" href="">Au 34 - 5ème - Bureau LCI / FHI</a></li>
+		</ul>
+    </body>
+</html>
