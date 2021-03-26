@@ -87,6 +87,12 @@
          "id":29,
          "name":"escOperaUp",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"exitSceneUrl",
+                 "type":"string",
+                 "value":"au34-6eme.json#escOperaDownSpawn"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":79,
