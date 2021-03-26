@@ -15,11 +15,18 @@
 					roomsRdc[i].href = url + 'au34-rdc.json#' + roomsRdc[i].id;
 				}
 				
-				// Setup 5th rooms
+				// Setup 5th floor rooms
 				document.getElementById('au34_5eme').href = url + 'au34-5eme.json';
 				var rooms5eme = document.getElementsByClassName('room5eme');
 				for (i=0; i < rooms5eme.length; i++){
 					rooms5eme[i].href = url + 'au34-5eme.json#' + rooms5eme[i].id;
+				}
+				
+				// Setup 6th floor rooms
+				document.getElementById('au34_6eme').href = url + 'au34-6eme.json';
+				var rooms5eme = document.getElementsByClassName('room6eme');
+				for (i=0; i < rooms5eme.length; i++){
+					rooms5eme[i].href = url + 'au34-6eme.json#' + rooms5eme[i].id;
 				}
             };
         </script>
@@ -37,6 +44,7 @@
 			<li><a id="au34_5eme" href="">Au 34 - 5ème</a></li>
 			<li><a class="room5eme" id="georgesBoolSpawn" href="">Au 34 - 5ème - Georges Bool</a></li>
 			<li><a class="room5eme" id="bureauFHISpawn" href="">Au 34 - 5ème - Bureau LCI / FHI</a></li>
+			<li><a class="room6eme" id="" href="">Au 34 - 6ème</a></li>
 		</ul>
     </body>
 </html>
