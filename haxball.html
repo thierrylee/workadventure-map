@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <script>
+			function launchUrl(roomId){
+				window.parent.location = roomId
+			}
+        </script>
+    </head>
+    <body>
+        <a href="https://www.haxball.com/play">Lancer une nouvelle partie</a>
+        <br/>
+		<div>Rejoindre une partie</div>
+		<input id="haxballRoomId" type="text"/><input type="button" value="Rejoindre" onclick="launchUrl(document.getElementById('haxballRoomId').value)"/>
+    </body>
+</html>
