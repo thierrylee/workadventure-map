@@ -406,7 +406,26 @@
          "draworder":"topdown",
          "id":3,
          "name":"floorLayer",
-         "objects":[],
+         "objects":[
+                {
+                 "height":27.5104,
+                 "id":1,
+                 "name":"",
+                 "rotation":0,
+                 "text":
+                    {
+                     "color":"#ffffff",
+                     "fontfamily":"Arial",
+                     "pixelsize":24,
+                     "text":"6",
+                     "wrap":true
+                    },
+                 "type":"",
+                 "visible":true,
+                 "width":28.7448,
+                 "x":1162.29426666667,
+                 "y":962.2448
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -432,7 +451,7 @@
          "y":0
         }],
  "nextlayerid":67,
- "nextobjectid":1,
+ "nextobjectid":2,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.5.0",

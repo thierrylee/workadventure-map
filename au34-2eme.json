@@ -431,7 +431,45 @@
          "draworder":"topdown",
          "id":3,
          "name":"floorLayer",
-         "objects":[],
+         "objects":[
+                {
+                 "height":27.5104,
+                 "id":2,
+                 "name":"",
+                 "rotation":0,
+                 "text":
+                    {
+                     "color":"#ffffff",
+                     "fontfamily":"Arial",
+                     "pixelsize":24,
+                     "text":"2",
+                     "wrap":true
+                    },
+                 "type":"",
+                 "visible":true,
+                 "width":28.7448,
+                 "x":1830.1276,
+                 "y":865.7448
+                }, 
+                {
+                 "height":27.5104,
+                 "id":3,
+                 "name":"",
+                 "rotation":0,
+                 "text":
+                    {
+                     "color":"#ffffff",
+                     "fontfamily":"Arial",
+                     "pixelsize":24,
+                     "text":"2",
+                     "wrap":true
+                    },
+                 "type":"",
+                 "visible":true,
+                 "width":28.7448,
+                 "x":814.6276,
+                 "y":899.2448
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -457,7 +495,7 @@
          "y":0
         }],
  "nextlayerid":62,
- "nextobjectid":1,
+ "nextobjectid":4,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.5.0",
