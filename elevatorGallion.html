@@ -1,16 +1,64 @@
-<html>
+<html lang="en">
     <head>
+			<title>Elevator</title>
 		<script>
+			const DEFAULT_ELEVATOR = 'ascGallionSpawn'
+			const params = new URLSearchParams(window.location.search)
+			const elevator = params.get('elevator') || DEFAULT_ELEVATOR
+			const baseURL = `https://play.workadventu.re`
+			
 			function goToFloor(floor){
-				window.parent.location = 'https://play.workadventu.re/_/global/thierrylee.github.io/workadventure-map/au34-' + floor + '.json#ascGallionSpawn'
+				window.parent.location = `${baseURL}/_/global/thierrylee.github.io/workadventure-map/au34-${floor}.json#${elevator}`
 			}
 		</script>
 	</head>
     <body>
-        <p>Go to floor :</p>
-		<ul>
-			<li><a href="#" onClick="goToFloor('5eme');">5</a></li>
-			<li><a href="#" onClick="goToFloor('rdc');">RDC</a></li>
-		</ul>
+		<section>
+			<ol>
+				<li><a href="#" onClick="goToFloor('rdc');">0</a></li>
+				<li><a href="#" onClick="goToFloor('1er');">1</a></li>
+				<li><a href="#" onClick="goToFloor('2eme');">2</a></li>
+				<li><a href="#" onClick="goToFloor('3eme');">3</a></li>
+				<li><a href="#" onClick="goToFloor('4eme');">4</a></li>
+				<li><a href="#" onClick="goToFloor('5eme');">5</a></li>
+				<li><a href="#" onClick="goToFloor('6eme');">6</a></li>
+			</ol>
+		</section>
     </body>
+	<style>
+		body {
+			background-color: #aaa;
+		}
+		section {
+			width: 80%;
+			max-width: 300px;
+			margin: auto;
+		}
+		ol {
+			list-style-type: none;
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			grid-gap: 10px;
+		}
+		li {
+			text-align: center;
+			display: inline-block;
+		}
+		a {
+			color: #fff;
+			border: 5px solid #999;
+			text-decoration: none;
+			height:50px;
+			width: 50px;
+			line-height:50px;
+			border-radius:50%;
+			display: inline-block;
+			background-color: #444;
+		}
+		a:hover {
+			background-color: #555;
+			border-color: #ddd;
+		}
+	</style>
 </html>
+
